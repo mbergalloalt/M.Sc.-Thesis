@@ -1,24 +1,26 @@
-# Trabajo-Especial
-Simulaciones en MATLAB de mi Trabajo Especial de Licenciatura "Discriminación de procesos de relajación y difusión en resonancia magnética nuclear unilateral"
+# M.S.c Thesis
+MATLAB scripts from my M.S.c Thesis "Discriminación de procesos de relajación y difusión en resonancia magnética nuclear unilateral" (_Discrimination of relaxation and diffusion processes in single-sided nuclear magnetic resonance_)
 ## Nota sobre los códigos de inversión
 Los códigos de inversión no están incluídos en este repositorio por el momento. Si los necesitás, escribime a "martibergallo@gmail.com" y te los facilito. Esta sección se actualizará más adelante.
-## Códigos de simulación
+## MATLAB Scripts
 
-| Script | Figura | Descripción |
+| Script | Figure number | Description |
 |---|---|---|
-| `figura_4_1_loop_D.m` | Fig. 4.1 | Simulación de las tasas de decaimiento por separado de una CPMG variando D |
-| `figura_4_2_loop_TE.m` | Fig. 4.2 | Simulación de las tasas de decaimiento por separado de una CPMG variando TE |
-| `figura_4_3_cpmg_til.m` | Fig. 4.3 | Simulación de treinta señales CPMG variando D e inversión (TIL) |
-| `figura_4_4_loop_D_tau2.m` | Fig. 4.4 | Simulación de señal STE y tasa de decaimiento por difusión variando D y τ₂ en conjunto |
-| `figura_4_5_error_D.m` | Fig. 4.5 | Cálculo del error en la estimación de D |
-| `figura_5_1_mapa_4_poblaciones_2K.m` | Fig. 5.1 | Mapa D-T₂ de 4 poblaciones con modelo de dos kernels |
-| `figura_5_2_mapa_4_poblaciones_2K_curva_T2ef.m` | Fig. 5.2 | Mapa D-T₂ (2K) con curva de T₂ efectivo superpuesta |
-| `figura_5_4_mapa_4_poblaciones_3K.m` | Fig. 5.4 | Mapa D-T₂ de 4 poblaciones con modelo de tres kernels |
-| `figura_5_5_mapa_4_poblaciones_3K_curva_T2ef.m` | Fig. 5.5 | Mapa D-T₂ (3K) con curva de T₂ efectivo superpuesta |
-| `figura_5_6_mapa_con_proyección_y_FWHM.m` | Fig. 5.6 | Mapa D-T₂ con proyección y cálculo de FWHM |
-| `figura_5_7_mapa_con_proyección_arriba.m` | Fig. 5.7 | Mapa D-T₂ con proyección superior |
-| `figura_5_8_grilla_valores_FWHM.m` | Fig. 5.8 | Grilla de valores de FWHM sobre el espacio de parámetros |
+| `figura_4_1_loop_D.m` | Fig. 4.1 | Simulation of individual CPMG decay rates varying D |
+| `figura_4_2_loop_TE.m` | Fig. 4.2 | Simulation of individual CPMG decay rates varying TE |
+| `figura_4_3_cpmg_til.m` | Fig. 4.3 | Simulation of thirty CPMG signals varying D and Laplace Inversion (ILT) |
+| `figura_4_4_loop_D_tau2.m` | Fig. 4.4 | Simulation of STE signal and diffusion decay rate varying D and τ₂ simultaneously |
+| `figura_4_5_error_D.m` | Fig. 4.5 | Error calculation in the estimation of D |
+| `figura_5_1_mapa_4_poblaciones_2K.m` | Fig. 5.1 | D-T₂ map of 4 populations using the two-kernel model |
+| `figura_5_2_mapa_4_poblaciones_2K_curva_T2ef.m` | Fig. 5.2 | D-T₂ map (2K) with overlaid effective T₂ curve |
+| `figura_5_4_mapa_4_poblaciones_3K.m` | Fig. 5.4 | D-T₂ map of 4 populations using the three-kernel model |
+| `figura_5_5_mapa_4_poblaciones_3K_curva_T2ef.m` | Fig. 5.5 | D-T₂ map (3K) with overlaid effective T₂ curve |
+| `figura_5_6_mapa_con_proyección_y_FWHM.m` | Fig. 5.6 | D-T₂ map with projection and FWHM calculation |
+| `figura_5_7_mapa_con_proyección_arriba.m` | Fig. 5.7 | D-T₂ map with top projection |
+| `figura_5_8_grilla_valores_FWHM.m` | Fig. 5.8 | Grid of FWHM values over the parameter space |
+## FLINT Algorithm
 
-## Scripts que requieren datos externos
 
-Los scripts de las figuras 5.6, 5.7 y 5.8 levantan datos de una simulación masiva que no está incluida en este repositorio por su tamaño. Si necesitás correr estos scripts, escribime a **martibergallo@gmail.com** y te paso los datos. Más adelante voy a subir esta base de datos a algún repositorio externo  y actualizar este README con el link.
+## Scripts requiring external data
+
+The scripts for Figures 5.6, 5.7, and 5.8 load data from a large-scale simulation that is not included in this repository due to file size limits. If you need to run these scripts, please contact me at **martibergallo@gmail.com** and I will share the dataset with you. In the future, I will upload this database to an external repository and update this README with the link.
