@@ -1,7 +1,7 @@
 # M.S.c Thesis
 MATLAB scripts from my M.S.c Thesis "Discriminación de procesos de relajación y difusión en resonancia magnética nuclear unilateral" (_Discrimination of relaxation and diffusion processes in single-sided nuclear magnetic resonance_)
 ## Note on the FLINT algorithm
-The FLINT algorithm (three-kernel inversion) is not currently included in this repository. If you need it, please contact me at **martibergallo@gmail.com** and I will be happy to share them with you. This section will be updated in the future.
+The FLINT algorithm (three-kernel inversion) is not currently included in this repository. If you need it, please contact me at **martibergallo@gmail.com** and I will be happy to share it with you. This section will be updated in the future.
 ## MATLAB Scripts
 
 | Script | Figure number | Description |
