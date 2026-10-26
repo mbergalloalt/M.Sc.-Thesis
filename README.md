@@ -1,7 +1,7 @@
 # M.S.c Thesis
 MATLAB scripts from my M.S.c Thesis "Discriminación de procesos de relajación y difusión en resonancia magnética nuclear unilateral" (_Discrimination of relaxation and diffusion processes in single-sided nuclear magnetic resonance_)
-## Nota sobre los códigos de inversión
-Los códigos de inversión no están incluídos en este repositorio por el momento. Si los necesitás, escribime a "martibergallo@gmail.com" y te los facilito. Esta sección se actualizará más adelante.
+## Note on the FLINT algorithm
+The FLINT algorithm (three-kernel inversion) is not currently included in this repository. If you need it, please contact me at **martibergallo@gmail.com** and I will be happy to share them with you. This section will be updated in the future.
 ## MATLAB Scripts
 
 | Script | Figure number | Description |
@@ -18,9 +18,5 @@ Los códigos de inversión no están incluídos en este repositorio por el momen
 | `figura_5_6_mapa_con_proyección_y_FWHM.m` | Fig. 5.6 | D-T₂ map with projection and FWHM calculation |
 | `figura_5_7_mapa_con_proyección_arriba.m` | Fig. 5.7 | D-T₂ map with top projection |
 | `figura_5_8_grilla_valores_FWHM.m` | Fig. 5.8 | Grid of FWHM values over the parameter space |
-## FLINT Algorithm
-
-
 ## Scripts requiring external data
-
 The scripts for Figures 5.6, 5.7, and 5.8 load data from a large-scale simulation that is not included in this repository due to file size limits. If you need to run these scripts, please contact me at **martibergallo@gmail.com** and I will share the dataset with you. In the future, I will upload this database to an external repository and update this README with the link.
